@@ -1,0 +1,40 @@
+
+body 
+{
+	background: rgb( 229, 237, 226);
+	font-family: andalus;
+	color: blue;
+}
+
+header
+{
+	background: #397AA0;
+	height: 5em;
+}
+
+/* cambiamos el color de la barra de navegacion */
+.navbar
+{
+	background: #397AA0;
+	border: none;	
+}
+
+/* le damos formato a los textos del menu */
+.navbar-inverse .navbar-nav > li > a {
+  	color: #0C1A25;
+  	font-size : 1.5em;
+  	font-weight: bold;
+}
+
+/* los 2 bloques que siguen son para centrar el menu */
+.navbar .navbar-nav 
+{
+  display: inline-block;
+  float: none;
+  margin-top: 0.5em;
+}
+
+.navbar .navbar-collapse 
+{
+  text-align: center;
+}
