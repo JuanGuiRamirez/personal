@@ -1,0 +1,30 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			
+	<div class="container-fluid">			    
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>				      
+	    </div>
+	
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+		        {% for m in menu %}
+		        	<li {% if m.active and forloop.last %} 
+		        		class="active borderMenu" 
+		        	{% elif m.active %}
+		        		class="active "		        	
+		        	{% elif not forloop.last %}
+		        		class="borderMenu"   
+		        	{% endif %}
+		        	
+		        	><a href=" {{ m.url }} "> {{ m.name }} </a></li>
+		        {% endfor %}   
+		    </ul>
+		 </div>
+	</div>
+	
+</nav>

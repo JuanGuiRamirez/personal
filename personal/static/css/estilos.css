@@ -2,8 +2,7 @@
 body 
 {
 	background: rgb( 229, 237, 226);
-	font-family: andalus;
-	color: blue;
+	font-family: andalus;	
 }
 
 header
@@ -20,10 +19,15 @@ header
 }
 
 /* le damos formato a los textos del menu */
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {  	
   	color: #0C1A25;
   	font-size : 1.5em;
   	font-weight: bold;
+}
+
+.borderMenu
+{
+	border-right : 3px #FC8123 solid;
 }
 
 /* los 2 bloques que siguen son para centrar el menu */
@@ -31,10 +35,68 @@ header
 {
   display: inline-block;
   float: none;
-  margin-top: 0.5em;
+  margin-top: 0.6em;
 }
 
 .navbar .navbar-collapse 
 {
   text-align: center;
+}
+
+
+/* estilos para los section de cada modulo */
+
+
+.stlInterModulo
+{
+	background: #FC8123;
+}
+
+
+
+/* estilos para experiencia */
+
+#ctnExperiencia h1
+{
+	color : #0C1A25;
+	font-size : 6em;	
+	text-align: center;	
+}
+
+#ctnExperiencia article
+{
+	border: 2px red solid;			
+}
+
+article img
+{
+	border-radius : 50%;	
+	height: 100%;
+	width:  100%;
+}
+
+
+/* clase para posicionar la imagen con el figure */
+
+.logoPer
+{
+	padding: 0px;
+}
+
+.stlExp
+{
+	margin : 1em 0;
+}
+
+hr
+{  
+  background-color: #FC8123;
+  height: 5px;  
+  margin : 0px;
+  width: 100%;
+}
+
+#atrExp
+{
+	border: 2px #397AA0 solid;	
 }
