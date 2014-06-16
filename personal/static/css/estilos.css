@@ -63,14 +63,12 @@ header
 	text-align: center;	
 }
 
-#ctnExperiencia article
-{
-	border: 2px red solid;			
-}
+
 
 article img
 {
-	border-radius : 50%;	
+	border-bottom-left-radius : 10%;
+	border-top-right-radius : 10%;	
 	height: 100%;
 	width:  100%;
 }
@@ -83,20 +81,10 @@ article img
 	padding: 0px;
 }
 
-.stlExp
-{
-	margin : 1em 0;
-}
 
-hr
-{  
-  background-color: #FC8123;
-  height: 5px;  
-  margin : 0px;
-  width: 100%;
-}
 
-#atrExp
+.divSeparador
 {
-	border: 2px #397AA0 solid;	
+	border: 2px black solid;
+	margin : 1em 0;	
 }
