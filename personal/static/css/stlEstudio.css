@@ -1,0 +1,69 @@
+
+
+#ctnEstudio
+{
+	background: #DD1A2A;
+	margin-top: 4em;
+}
+
+#ctnEstudio h1
+{
+	color : #0C1A25;
+	font-family: andalus;
+	font-size : 6em;
+	margin-top : 0.8em;	
+	text-align: center;	
+}
+
+
+.divSepEstudio
+{	
+	background: #FC8123;
+  	border-radius: 50%;
+	height: 350px;
+/* 	padding-top : 23%; */
+	position: relative;
+	text-align : center;
+	width: 350px;
+}
+
+.divSepEstudio img
+{
+	border-radius: 50%;
+	height: 350px;
+	width:  350px;
+}
+
+.divSepEstudio h3
+{
+	
+	text-align: center;
+	font-weight: bold;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+
+.infoOverEstudio
+{
+	background: rgba(255, 255, 255, 0.7);	
+	border-radius : 50%;
+	box-shadow: inset 0 0 0 5px #397AA0;
+	color: #FFF;
+	display: none;
+	height : 100%;		
+	padding-top: 30%;
+	position: absolute;
+	top : 0;
+	width : 100%;
+	z-index: 10;
+}
+
+.divSepEstudio:hover .infoOverEstudio 
+{
+	display: block;	
+}
+
+.divSepEstudio h3, h4
+{
+	color : #0C1A25;
+}

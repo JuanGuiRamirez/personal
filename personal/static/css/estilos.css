@@ -47,12 +47,6 @@ header
 /* estilos para los section de cada modulo */
 
 
-.stlInterModulo
-{
-	background: #FC8123;
-}
-
-
 
 /* estilos para experiencia */
 
@@ -61,6 +55,7 @@ header
 	color : #0C1A25;
 	font-family: andalus;
 	font-size : 6em;	
+	margin-top : 0.8em;	
 	text-align: center;	
 }
 
@@ -119,8 +114,8 @@ hr
 	position: absolute;
 
 }
-/*
+
 .divSeparador:hover .infoOver 
 {
 	display: block;	
-}*/
+}
