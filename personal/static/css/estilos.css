@@ -59,6 +59,7 @@ header
 #ctnExperiencia h1
 {
 	color : #0C1A25;
+	font-family: andalus;
 	font-size : 6em;	
 	text-align: center;	
 }
@@ -66,25 +67,60 @@ header
 
 
 article img
-{
-	border-bottom-left-radius : 10%;
-	border-top-right-radius : 10%;	
+{	
 	height: 100%;
 	width:  100%;
 }
 
+article h3
+{	
+	font-family: andalus;	
+	margin: 0px;
+}
+
+article h3
+{	
+	font-family: andalus;	
+}
+
+hr
+{  
+  background-color: #105F42;
+  height: 2px;  
+  margin : 10px 0 0 0;
+  width: 100%;
+}
 
 /* clase para posicionar la imagen con el figure */
 
 .logoPer
 {
-	padding: 0px;
+	padding: 0px;	
 }
 
 
 
 .divSeparador
-{
-	border: 2px black solid;
+{	
+	box-shadow: rgba(0,0,0,1) 0 0 1em;	
 	margin : 1em 0;	
+	padding: 1em;
+	position: relative;
 }
+
+.infoOver
+{
+	background: rgba(0, 0, 0, 0.5);	
+	color: #FFF;
+	display: none;
+	height : 86%;	
+	width : 96%;
+	padding: 10px;
+	position: absolute;
+
+}
+/*
+.divSeparador:hover .infoOver 
+{
+	display: block;	
+}*/
