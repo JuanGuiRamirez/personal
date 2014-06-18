@@ -14,11 +14,11 @@
 			<ul class="nav navbar-nav">
 		        {% for m in menu %}
 		        	<li {% if m.active and forloop.last %} 
-		        		class="active borderMenu" 
+		        		class="active" 
 		        	{% elif m.active %}
 		        		class="active "		        	
 		        	{% elif not forloop.last %}
-		        		class="borderMenu"   
+		        		
 		        	{% endif %}
 		        	
 		        	><a href=" {{ m.url }} "> {{ m.name }} </a></li>

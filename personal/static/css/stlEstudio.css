@@ -18,10 +18,9 @@
 
 .divSepEstudio
 {	
-	background: #FC8123;
+	background: #FC8123;	
   	border-radius: 50%;
 	height: 350px;
-/* 	padding-top : 23%; */
 	position: relative;
 	text-align : center;
 	width: 350px;
@@ -66,4 +65,9 @@
 .divSepEstudio h3, h4
 {
 	color : #0C1A25;
+}
+
+#atrEst article
+{
+	margin-bottom: 2em;
 }
