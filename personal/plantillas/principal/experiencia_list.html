@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+	
+	<h2> Experiencias anteriores </h2>
+	<ul>
+		{% for a in exp_anterior_list %}
+			<li> {{ a.nombre_empresa }} </li>
+		{% endfor %}	
+	</ul>
+	
+	<h2> Funciones </h2>
+	<ul>
+		{% for b in funciones %}
+			<li> {{ b }} </li>
+		{% endfor %}	
+	</ul>
+
+{% endblock contenido %}	
