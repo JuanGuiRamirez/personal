@@ -4,6 +4,8 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
+juan guillermo
+
 #import para vistas genericas
 from django.views.generic import list_detail
 from principal.models import experiencia, funcionesTrabajo
